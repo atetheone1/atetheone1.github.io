@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ATE TOUGUE ARISTIDE, Full Stack Developer, portfolio"
+    />
+    <link rel=" icon" href="assets/img/logo-color.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.15.1/devicon.min.css"
+      integrity="sha512-X2hbziex+UPQ+KdI4BWI+39jEDhf2Smc6bfFI/FTIzWnt7mbwZCUU4RWalnMfxtHCpISlexzmd2kvPFJCliiPA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.min.css" />
+    <script src="index.js" defer></script>
+    <!-- <script type="commonjs" src="mail.js" defer></script> -->
+    <title>ATE TOUGUE ARISTIDE - Full Stack Developer</title>
+  </head>
+
+  <body>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-ZVF3PL6J8G"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-ZVF3PL6J8G");
+    </script>
+    <header id="home">
+      <nav id="navbar">
+        <div id="logo-name">
+          <a href="#home" class="logo" aria-label="Logo de mon site"></a>
+        </div>
+        <div id="nav-right">
+          <ul class="dropcontent">
+            <li><a class="nav-link" href="#home">Home</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#skills">Skills</a></li>
+            <li>
+              <a class="nav-link" href="#certifications">Certifications</a>
+            </li>
+            <li><a class="nav-link" href="#projects">My projects</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+          <div class="icon-ham">
+            <button
+              aria-label="Click me to display the menu"
+              type="button"
+              class="dropbtn"
+              onclick="toggle()"
+            >
+              <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </nav>
+      <section class="welcome-section">
+        <div class="welcome-content">
+          <h1 class="name">
+            Hey, <br />
+            I am Até Tougué Aristide <br />
+            <span class="title">
+              A Chadian <br />
+              Full Stack Developer
+            </span>
+          </h1>
+          <p>
+            I am a full stack developer with a passion for web development.
+            Learning new technologies and building projects is what I love to
+            do.
+          </p>
+          <div class="ctas">
+            <a href="#contact" class="cta-1">Contact me</a>
+            <a href="#projects" class="cta-2">Check my projects</a>
+          </div>
+          <div class="contact-links">
+            <a
+              href="https://twitter.com/atetheone"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-twitter"></i>
+              <span class="sr-only">Go to my Twitter profile</span>
+            </a>
+            <a
+              href="https://github.com/atetheone"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-github"></i>
+              <span class="sr-only">Go to my Github profile</span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/atetheone"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+              <span class="sr-only">Go to my Linkedin profile</span>
+            </a>
+            <a
+              href="https://www.Leetcode.com/atetheone"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="leetcode-icon"></i>
+              <span class="sr-only">Go to my Leetcode profile</span>
+            </a>
+          </div>
+        </div>
+        <div class="welcome-right"></div>
+      </section>
+    </header>
+    <section class="section hidden" id="about">
+      <div class="about-wrapper">
+        <h2 class="title-about">About me</h2>
+        <div class="about-img">
+          <img
+            src="assets/img/my_pic.webp"
+            alt="about me pic"
+            width="200"
+            height="200"
+          />
+        </div>
+        <div class="about-content">
+          <p>
+            Currently student in <span class="highlight">Master of Science in 
+            Software Engineering and IT Systems</span>
+            at <span class="highlight">Polytechnic School of Dakar</span>
+            I have a <span class="highlight">Bachelor's degree in Computer Science</span>
+            at the University of Douala. I'm a passionate software developer who
+            believes in the
+            <span class="highlight">magic</span> of turning ideas into reality
+            through <span class="highlight">elegant lines of code</span>. With a
+            love of both <span class="highlight">frontend</span> and
+            <span class="highlight">backend</span> development, I am always
+            looking for <span class="highlight">new challenges</span> to learn
+            and grow as a developer. When I am not busy coding, you can find me
+            learning new things online in E-learing platforms like
+            <span class="highlight">Coursera</span>, practing my coding skills
+            on <span class="highlight">Leetcode</span>,
+            <span class="highlight">reading</span> &#128214; tech articles or
+            books, watching anime (One Piece is my favorite &#128525;), doing
+            home workout , or playing video games.
+          </p>
+          <a
+            href="https://drive.google.com/file/d/1ngKNDMp_CS3P76gDIu1X2M6ggo4ENEPS/view?usp=sharing"
+            class="download cta-1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Check out my resume
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="section hidden" id="skills">
+      <h2 class="skills-title">My skills</h2>
+
+      <div class="skills">
+        <div class="skill">
+          <i class="devicon-javascript-plain colored fa-2x"></i>
+          <h3 class="skill-name">JavaScript</h3>
+        </div>
+        <div class="skill">
+          <i class="devicon-typescript-plain colored fa-2x"></i>
+          <h3 class="skill-name">TypeScript</h3>
+        </div>
+        <div class="skill">
+          <i class="devicon-bootstrap-plain colored fa-2x"></i>
+          <h3 class="skill-name">Bootstrap</h3>
+        </div>
+        <div class="skill">
+          <i class="devicon-nodejs-plain colored fa-2x"></i>
+          <h3 class="skill-name">NodeJS</h3>
+        </div>
+        <div class="skill">
+          <i class="devicon-angularjs-plain colored fa-2x"></i>
+          <h3 class="skill-name">Angular</h3>
+        </div>
+        <div class="skill">
+          <i class="devicon-express-original fa-2x"></i>
+          <h3 class="skill-name">Express</h3>
+        </div>
+        <div class="skill">
+          <i class="devicon-nestjs-plain colored fa-2x"></i>
+          <h3 class="skill-name">NestJS</h3>
+        </div>
+        <div class="skill">
+          <i class="devicon-mongodb-plain-wordmark fa-2x"></i>
+          <h3 class="skill-name">MongoDB</h3>
+        </div>
+
+        <div class="skill">
+          <i class="devicon-python-plain colored fa-2x"></i>
+          <h3 class="skill-name">Python</h3>
+        </div>
+        <div class="skill">
+          <i class="devicon-mysql-plain colored fa-2x"></i>
+          <h3 class="skill-name">MySQL</h3>
+        </div>
+        <div class="skill">
+          <i class="devicon-socketio-original fa-2x"></i>
+          <h3 class="skill-name">Socket.IO</h3>
+        </div>
+        <div class="skill">
+          <i class="devicon-jest-plain fa-2x"></i>
+          <h3 class="skill-name">Jest</h3>
+        </div>
+        <div class="skill">
+          <img
+            src="assets/img/cypress.webp"
+            alt="cypress icon"
+            width="30"
+            height="30"
+          />
+          <h3 class="skill-name">Cypress</h3>
+        </div>
+      </div>
+    </section>
+    <!-- A section for certifications -->
+    <section class="section hidden" id="certifications">
+      <h2 class="title-section">Certifications</h2>
+      <div class="certifications">
+        <div class="certification">
+          <div class="certification-img">
+            <img
+              src="assets/img/devops-essentials.2.webp"
+              alt="devops essentials"
+              width="250"
+              height="250"
+            />
+          </div>
+          <div class="certification-content">
+            <div class="certification-header">
+              <div class="certification-left-header">
+                <h3 class="certification-title">
+                  <i class="fa-solid fa-certificate"></i>
+                  <a
+                    class="cert-link nav-link"
+                    href="https://www.credly.com/badges/ad2967c9-4566-49a1-b904-2d0358d69b62/public_url"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >DevOps Essentials</a
+                  >
+                </h3>
+                <div class="certification-date">Issued: June 08, 2022</div>
+              </div>
+              <div class="certification-issuer">Coursera</div>
+            </div>
+
+            <p class="certification-desc">
+              This badge demonstrated that I have learnt foundational knowledge
+              of the basic characteristics of DevOps. I have explored the
+              concepts of breaking down silos and how to organize developers and
+              operators into a single cross-functional DevOps team. I am also
+              able to describe DevOps as a cultural movement, as well develop a
+              business case for DevOps.
+            </p>
+            <div class="skillset">
+              <div class="skillset-item">Behavior Driven Development</div>
+              <div class="skillset-item">CI/CD</div>
+              <div class="skillset-item">DevOps</div>
+              <div class="skillset-item">Infracture as Code</div>
+              <div class="skillset-item">Test Driven Development</div>
+            </div>
+          </div>
+        </div>
+        <div class="certification">
+          <div class="certification-img">
+            <img
+              src="assets/img/introduction-to-cloud-computing.webp"
+              alt="devops essentials"
+              width="250"
+              height="250"
+            />
+          </div>
+          <div class="certification-content">
+            <div class="certification-header">
+              <div class="certification-left-header">
+                <h3 class="certification-title">
+                  <i class="fa-solid fa-certificate"></i>
+                  <a
+                    class="cert-link nav-link"
+                    href="https://www.credly.com/badges/ad2967c9-4566-49a1-b904-2d0358d69b62/public_url"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Introduction to Cloud Computing</a
+                  >
+                </h3>
+                <div class="certification-date">Issued: October 13, 2022</div>
+              </div>
+              <div class="certification-issuer">Coursera</div>
+            </div>
+
+            <p class="certification-desc">
+              This badge demonstrates that I have learnt the basics of cloud
+              technology and am able to describe cloud platforms and models
+              including IaaS, PaaS, SaaS, and public, private and hybrid
+              multiclouds, that I am familiar with essentials of cloud
+              applications and terms like Virtualization, VMs, Containers,
+              Object Storage, Microservices, Serverless, Cloud Native, and
+              DevOps. I have also gained hands-on experience at creating a cloud
+              account and provisioning services on IBM Cloud.
+            </p>
+            <div class="skillset">
+              <div class="skillset-item">Cloud</div>
+              <div class="skillset-item">Cloud Native</div>
+              <div class="skillset-item">DevOps</div>
+              <div class="skillset-item">Infracture as Code</div>
+              <div class="skillset-item">Container</div>
+              <div class="skillset-item">IBM Cloud</div>
+              <div class="skillset-item">Multicloud</div>
+            </div>
+          </div>
+        </div>
+        <div class="certification">
+          <div class="certification-img">
+            <img
+              src="assets/img/linux-commands-shell-scripting-essentials.webp"
+              alt="devops essentials"
+              width="250"
+              height="250"
+            />
+          </div>
+          <div class="certification-content">
+            <div class="certification-header">
+              <div class="certification-left-header">
+                <h3 class="certification-title">
+                  <i class="fa-solid fa-certificate"></i>
+                  <a
+                    class="cert-link nav-link"
+                    href="https://www.credly.com/badges/ad2967c9-4566-49a1-b904-2d0358d69b62/public_url"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Linux commands & Shell scripting</a
+                  >
+                </h3>
+                <div class="certification-date">Issued: March 03, 2023</div>
+              </div>
+              <div class="certification-issuer">Coursera</div>
+            </div>
+
+            <p class="certification-desc">
+              This badge demonstrates hands-on knowledge of Linux Commands and
+              Shell Scripting. I have proved ability to recall and execute
+              common shell commands, as well as create shell scripts using
+              Bash,use pipes, filters and variables the ability to create and
+              schedule cron jobs with crontab.
+            </p>
+            <div class="skillset">
+              <div class="skillset-item">Bash Shell Scripting</div>
+              <div class="skillset-item">Linux</div>
+              <div class="skillset-item">Crontab</div>
+              <div class="skillset-item">Cron jobs</div>
+            </div>
+          </div>
+        </div>
+        <div class="certification">
+          <div class="certification-img">
+            <img
+              src="assets/img/certif1_fe.webp"
+              alt="Responsive Web Design"
+              width="250"
+            />
+          </div>
+          <div class="certification-content">
+            <div class="certification-header">
+              <div class="certification-left-header">
+                <h3 class="certification-title">
+                  <i class="fa-solid fa-certificate"></i>
+                  <a
+                    class="cert-link nav-link"
+                    href="https://www.freecodecamp.org/certification/sirated/responsive-web-design"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Responsive Web Design</a
+                  >
+                </h3>
+                <div class="certification-date">Issued: April 20, 2022</div>
+              </div>
+              <div class="certification-issuer">
+                freeCodeCamp
+                <i class="fab fa-free-code-camp" aria-hidden="true"></i>
+              </div>
+            </div>
+
+            <p class="certification-desc">
+              The Responsive Web Design Certification from freeCodeCamp
+              encompasses an extensive curriculum covering essential concepts,
+              tools, and best practices in the field of responsive web design.
+              This program has equipped me with the necessary skills to design
+              and develop websites that are not only aesthetically pleasing but
+              also highly functional on desktops, tablets, and mobile devices.
+            </p>
+            <div class="skillset">
+              <div class="skillset-item">Reponsive Web Design</div>
+              <div class="skillset-item">CSS Flexbox</div>
+              <div class="skillset-item">CSS Grid</div>
+              <div class="skillset-item">Applied visual design</div>
+              <div class="skillset-item">Accessibility</div>
+              <div class="skillset-item">Transitions</div>
+              <div class="skillset-item">CSS Variables</div>
+            </div>
+          </div>
+        </div>
+        <div class="certification">
+          <div class="certification-img">
+            <img
+              src="assets/img/certif_be.webp"
+              alt="Backend Development & APIs"
+              width="250"
+            />
+          </div>
+          <div class="certification-content">
+            <div class="certification-header">
+              <div class="certification-left-header">
+                <h3 class="certification-title">
+                  <i class="fa-solid fa-certificate"></i>
+                  <a
+                    class="cert-link nav-link"
+                    href="https://www.freecodecamp.org/certification/sirated/back-end-development-and-apis"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Back-end Development & APIs</a
+                  >
+                </h3>
+                <div class="certification-date">Issued: April 28, 2022</div>
+              </div>
+              <div class="certification-issuer">
+                freeCodeCamp
+                <i class="fab fa-free-code-camp" aria-hidden="true"></i>
+              </div>
+            </div>
+
+            <p class="certification-desc">
+              I have successfully completed the Back-end Development & APIs
+              certification offered by freeCodeCamp, which has greatly enhanced
+              my skill set. This certification has equipped me with a
+              comprehensive understanding the basics of building
+              <span class="highlight">back-end systems</span>. Through this
+              program, I have gained proficiency in designing and implementing
+              <span class="highlight">RESTful APIs</span>, handling user
+              authentication and authorization with
+              <span class="highlight">passport.js</span>, and working with
+              databases, specially MongoDB. Additionally, I have learned how to
+              utilize server-side frameworks like
+              <span class="highlight">Node.js and Express.js</span> to create
+              dynamic web applications. Overall, this achievement showcases my
+              ability to develop efficient back-end solutions and demonstrates
+              my expertise in various essential skills for building modern web
+              applications.
+            </p>
+            <div class="skillset">
+              <div class="skillset-item">Back-end Development</div>
+              <div class="skillset-item">APIs Development</div>
+              <div class="skillset-item">Database management</div>
+              <div class="skillset-item">Server Side Programming</div>
+              <div class="skillset-item">RESTful APIs</div>
+              <div class="skillset-item">Authentication</div>
+              <div class="skillset-item">Authorization</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="more-certifications">
+        <a
+          class="cta-2"
+          href="https://www.linkedin.com/in/atetheone/details/certifications/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >View more certifications
+
+          <i class="fa fa-external-link-alt" aria-hidden="true"></i>
+        </a>
+      </div>
+    </section>
+    <!-- A section for projects -->
+    <section class="section hidden" id="projects">
+      <h2 class="title-section">My Projects</h2>
+      <div class="my-projects">
+        <div class="project">
+          <h3 class="project-title">Chat app</h3>
+          <p class="project-desc">
+            I developed a remarkable chat application, utilizing
+            <span class="highlight"
+              >Angular, Angular Material, Express.js, Socket.io, and
+              MongoDB</span
+            >. This app seamlessly connects users through
+            <span class="highlight">real-time messaging</span> and offers a
+            visually appealing interface thanks to Angular Material. Leveraging
+            Socket.io, the application ensures instant message delivery and
+            updates. The integration of MongoDB allows for
+            <span class="highlight">efficient data storage and retrieval</span>.
+            To ensure the reliability of server-side APIs, I employed
+            <span class="highlight">Jest</span> for comprehensive testing.
+            Overall, this chat application showcases my expertise in front-end
+            development with Angular and back-end development with Express.js
+            and MongoDB.
+          </p>
+          <div class="project-footer">
+            <div class="tools">
+              <div class="icon-wrapper">
+                <i class="devicon-angularjs-plain colored"></i>
+              </div>
+              <div class="icon-wrapper">
+                <i class="devicon-nodejs-plain colored"></i>
+              </div>
+              <div class="icon-wrapper">
+                <i class="devicon-express-original colored"></i>
+              </div>
+              <div class="icon-wrapper">
+                <i class="devicon-socketio-original colored"></i>
+              </div>
+              <div class="icon-wrapper">
+                <i class="devicon-mongodb-plain-wordmark colored"></i>
+              </div>
+              <div class="icon-wrapper">
+                <i class="devicon-jest-plain colored"></i>
+              </div>
+            </div>
+            <a
+              href="https://github.com/atetheone/chatApp"
+              rel="noopener noreferrer"
+              target="_blank"
+              class="cta-1"
+              aria-label="Source code"
+            >
+              <i class="fa-brands fa-github"></i>
+              <span class="sr-only">Source code</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="project">
+          <h3 class="project-title">Microshop - Microwarehouse app</h3>
+          <p class="project-desc">
+            A set of two applications: a
+            <span class="highlight">microwarehouse</span> and a
+            <span class="highlight">microshop</span>. The first app is a
+            microwarehouse application, which efficiently manages the addition
+            and retrieval of <span class="highlight">products</span> from the
+            warehouse based on customer orders. The second app, a microshop
+            application, provides a seamless ordering experience for customers,
+            allowing them to easily select their desired products and
+            <span class="highlight">track their order status</span>. <br />
+            Both of these applications boast a modern and intuitive user
+            interface, thanks to the implementation of
+            <span class="highlight">Angular</span> on the front-end. On the
+            back-end, I utilized <span class="highlight">NestJS</span> to ensure
+            robustness and scalability. One notable feature of these apps is the
+            integration of an
+            <span class="highlight">event-driven architecture</span> on the
+            backend side. This means that every action performed by users
+            <span class="highlight">triggers an event</span>, which is
+            automatically <span class="highlight">published</span> for listeners
+            to <span class="highlight">subscribe</span> to. This architecture
+            enhances efficiency and allows for seamless communication between
+            different components. To ensure the reliability and quality of these
+            applications, I employed <span class="highlight">Cypress</span> for
+            end-to-end testing. This powerful tool ensures that all
+            functionalities are
+            <span class="highlight">thoroughly tested</span> and guarantees a
+            <span class="highlight">smooth user experience</span>.
+          </p>
+          <div class="project-footer">
+            <div class="tools">
+              <div class="icon-wrapper">
+                <i class="devicon-angularjs-plain colored fa-2x"></i>
+              </div>
+              <div class="icon-wrapper">
+                <i class="devicon-nodejs-plain colored fa-2x"></i>
+              </div>
+              <div class="icon-wrapper">
+                <i class="devicon-nestjs-plain colored fa-2x"></i>
+              </div>
+              <div class="icon-wrapper">
+                <i class="devicon-mongodb-plain-wordmark colored fa-2x"></i>
+              </div>
+              <div class="icon-wrapper">
+                <img
+                  src="assets/img/cypress.webp"
+                  alt="cypress icon"
+                  width="25"
+                  height="25"
+                />
+              </div>
+            </div>
+            <a
+              href="https://github.com/atetheone/shop_app"
+              rel="noopener noreferrer"
+              target="_blank"
+              aria-label="Source code"
+              class="cta-1"
+            >
+              <i class="fa-brands fa-github"></i>
+              <span class="sr-only">Source code</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="project">
+          <h3 class="project-title">Random users generator</h3>
+          <p class="project-desc">
+            This app is built using Angular and Bootstrap. It serves as a
+            platform to retrieve random users from the
+            <a class="external-link" href="https://randomuser.me"
+              >Random user generator</a
+            >
+            API. The app allows users to
+            <span class="highlight">delete existing users or add new ones</span>
+            . The user interface of the app is designed using
+            <span class="highlight">Bootstrap</span>, ensuring a responsive and
+            visually appealing layout. Users can view details such as name,
+            email, phone number, and address for each randomly generated user.
+            The app also provides functionality for deleting users. Users can
+            select any user from the list and remove them from the display. This
+            action update the local array where users generated are stored in.
+            Users have the ability to generate new users and add them to list to
+            the list. Additionnally, the user can performe
+            <span class="highlight">search</span> action on the list,
+            <span class="highlight">sort users by age</span>, or
+            <span class="highlight">filter by gender</span>. To optimize
+            performance and improve search engine optimization (SEO),
+            <span class="highlight">Angular Universal</span> is implemented in
+            this app. Angular Universal enables
+            <span class="highlight">server-side rendering</span> (SSR), which
+            pre-renders pages on the server before sending them to clients.
+          </p>
+          <div class="project-footer">
+            <div class="tools">
+              <div class="icon-wrapper">
+                <i class="devicon-angularjs-plain colored fa-2x"></i>
+              </div>
+              <div class="icon-wrapper">
+                <i class="devicon-bootstrap-plain colored fa-2x"></i>
+              </div>
+            </div>
+            <div class="code-links">
+              <a
+                href="https://github.com/atetheone/user-generator"
+                rel="noopener noreferrer"
+                target="_blank"
+                aria-label="Source code"
+                class="cta-1"
+              >
+                <i class="fa-brands fa-github"></i>
+                <span class="sr-only">Source code</span>
+              </a>
+              <a
+                href="https://atetheone.tech/user-generator"
+                rel="noopener noreferrer"
+                target="_blank"
+                aria-label="Source code"
+                class="cta-1"
+              >
+                <i class="fas fa-eye"></i>
+                <span class="sr-only"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="more-projects">
+        <a
+          href="https://github.com/atetheone?tab=repositories"
+          rel="noopener noreferrer"
+          target="_blank"
+          class="cta-2"
+        >
+          More projects
+          <i class="fas fa-external-link"></i>
+        </a>
+      </div>
+    </section>
+
+    <section class="section hidden" id="contact">
+      <h2 id="contact-title">Let's work together...</h2>
+      <div class="contact-content">
+        <a
+          href="https://www.github.com/atetheone"
+          rel="noopener noreferrer"
+          target="_blank"
+          id="profile-link"
+          class="github brands"
+        >
+          <i class="fab fa-github"></i>
+          Github
+        </a>
+        <a
+          href="https://www.linkedin.com/in/atetheone"
+          rel="noopener noreferrer"
+          target="_blank"
+          class="brands linkedin"
+        >
+          <i class="fab fa-linkedin"></i>
+          LinkedIn
+        </a>
+        <a href="mailto:atevirran@gmail.com" class="brands email">
+          <i class="fab fa-at"></i>
+          Contact me
+        </a>
+      </div>
+
+      <!-- A contact me form with name subject and message -->
+      <!-- <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input
+            type="text"
+            name="subject"
+            id="subject"
+            placeholder="Enter your subject"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Enter your message"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="cta-1 send">Send</button>
+      </form> -->
+    </section>
+
+    <footer class="section hidden">
+      <p class="author">
+        © Created by Até Tougué Aristide <br />
+        2023 All rights reserved
+      </p>
+    </footer>
+  </body>
+</html>
